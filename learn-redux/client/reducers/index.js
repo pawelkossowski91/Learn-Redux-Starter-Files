@@ -1,0 +1,1 @@
+// główny reducer, który SPINA wszystko razem

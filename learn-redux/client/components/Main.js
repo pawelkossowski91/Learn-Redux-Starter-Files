@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router';
-// import { Single } from './Single';
 
 const Main = React.createClass({
     render() {
@@ -9,7 +8,7 @@ const Main = React.createClass({
                 <h1>
                 <Link to="/"><h1>Reduxstagram</h1></Link>
                 </h1>
-                {React.cloneElement(this.props.children, this.props)}
+                {/* {React.cloneElement(this.props.children, this.props)} */}
             </div>
         )
     }
